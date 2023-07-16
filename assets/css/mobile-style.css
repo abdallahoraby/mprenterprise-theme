@@ -1,0 +1,297 @@
+/****** Small Devices ********/
+
+@media all and (max-width: 768px){
+
+    .course-card {
+        width: 100% !important;
+    }
+
+    .notification-bar {
+        margin: 1rem !important;
+        border-radius: 20px !important;
+    }
+
+    .profile-info {
+        order: 1 !important;
+    }
+
+    .right-section {
+        order: 0 !important;
+    }
+
+    .notification-bar strong {
+        order: 1 !important;
+    }
+
+    .notification-bar .center-section {
+        order: 2 !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    span.notification-date{
+        display: none !important;
+    }
+
+    .profile-section {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .courses-filter {
+        flex-flow: wrap !important;
+    }
+
+    select#filter-courses-grid {
+        width: 100% !important;
+    }
+
+    .tab_container {
+        padding: 0 !important;
+    }
+
+    .page-content {
+        grid-template-columns: repeat(1, 1fr) !important;
+        padding: 0 !important;
+    }
+
+    .row.bottom-cards {
+        margin: 0 !important;
+    }
+
+    .content {
+        margin-top: 1rem !important;
+        min-height: 15vh !important;
+        justify-content: space-between !important;
+    }
+
+    .content button {
+        position: absolute !important;
+        right: 0 !important;
+        bottom: 0 !important;
+    }
+
+    p.copy {
+        margin-top: 0.5rem !important;
+    }
+
+    .card:before {
+        background-size: 120% !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .tab_container {
+        margin-bottom: 3rem !important;
+    }
+
+    .courses-header {
+        padding: 1rem !important;
+        min-height: 40vh !important;
+    }
+
+    .courses-bottom {
+        padding: 2rem !important;
+    }
+
+    .filter-title {
+        font-size: 0.8rem !important;
+    }
+
+    .courses-count {
+        margin: 2rem 0 !important;
+    }
+
+    .vid-main-wrapper {
+        flex-flow: column !important;
+        height: auto !important;
+        display: flex !important;
+        justify-content: center !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        min-width: 100% !important;
+    }
+
+    .vid-container {
+        width: 100% !important;
+    }
+
+    .vid-list-container {
+        width: 100% !important;
+    }
+
+    .course-details-section .duration-info {
+        margin-top: 2rem !important;
+    }
+
+    .course-details-section .course-header-details {
+        padding: 1rem !important;
+        margin: 0 !important;
+    }
+
+    .course-details-section .course-title {
+        padding: 1rem !important;
+        margin: 1rem 0 !important;
+    }
+
+    .course-details-section p.course-description {
+        padding: 2rem !important;
+        margin: 0 !important;
+    }
+
+    .row.rate-this-course {
+        margin: 0 auto !important;
+        padding: 1rem !important;
+        width: 90% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .row.rate-this-course .col-md-6 {
+        width: auto !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/********* Tablet **************/
+
+@media all and (min-width: 770px) and (max-width: 900px){
+
+    .course-card {
+        width: 45% !important;
+    }
+
+}
+
+
+
+
+/****************************************************************************  Media Queries **********************************************************************/
+
+@media all and (max-width: 1000px) {
+    h3.cardTitle {
+        font-weight: 500 !important;
+
+    }
+
+    .content p {
+        margin-top: -15% !important;
+        line-height: 1.2em !important;
+    }
+
+    .card-section {
+        height: 175px !important;
+    }
+
+}
+
+@media all and (max-width: 752px) {
+
+    .secondRow {
+        margin-top: -3% !important;
+    }
+
+    .cardContainer:nth-child(3), .cardContainer:nth-child(4) {
+        margin-top: 3% !important;
+    }
+
+}
+
+@media all and (max-width: 390px) {
+
+    .card-section {
+        width: 100% !important;
+        height: 150px !important;
+    }
+
+    .secondRow {
+        margin-top: -9% !important;
+    }
+
+    .well {
+        padding: 1% !important;
+    }
+
+    .cardContainer:nth-child(3), .cardContainer:nth-child(4) {
+        margin-top: 5% !important;
+    }
+
+    h3.cardTitle {
+        font-weight: 500 !important;
+    }
+
+    .content p {
+        margin-top: -20% !important;
+        line-height: 1.2em !important;
+    }
+
+    .cardWrapper {
+        margin-left: 4% !important;
+    }
+
+}
+
+
+@media (hover: hover) and (min-width: 600px) {
+    .card:after {
+        transform: translateY(0) !important;
+    }
+
+    .content {
+        /*transform: translateY(calc(100% - 4.5rem)) !important;*/
+    }
+    .content > *:not(.title) {
+        opacity: 1 !important;
+        transform: translateY(1rem) !important;
+        transition: transform var(--d) var(--e), opacity var(--d) var(--e) !important;
+    }
+
+    .card:hover,
+    .card:focus-within {
+        align-items: center !important;
+    }
+    .card:hover:before,
+    .card:focus-within:before {
+        transform: translateY(-4%) !important;
+    }
+    .card:hover:after,
+    .card:focus-within:after {
+        transform: translateY(-50%) !important;
+    }
+    .card:hover .content,
+    .card:focus-within .content {
+        transform: translateY(0) !important;
+    }
+    .card:hover .content > *:not(.title),
+    .card:focus-within .content > *:not(.title) {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+        transition-delay: calc(var(--d) / 8) !important;
+    }
+
+    .card:focus-within:before, .card:focus-within:after,
+    .card:focus-within .content,
+    .card:focus-within .content > *:not(.title) {
+        transition-duration: 0s !important;
+    }
+}
